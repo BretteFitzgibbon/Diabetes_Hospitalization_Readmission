@@ -111,7 +111,17 @@ screenshots/      Screenshots of the app
 
 ## Screenshots
 
-![Overview](screenshots/01_overview_and_filters.png)
-![Charts](screenshots/02_charts.png)
-![Break-even check](screenshots/03_break_even_check.png)
-![Filtered to patients whose medication changed](screenshots/04_filtered_med_changed.png)
+<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/3211da8c-c4c5-44c8-9920-c1a6961a7f58" />
+
+<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/52ddfe4e-1fa0-4dde-9892-8f659f0e985c" />
+
+<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/5aa0a044-4a2e-41ed-9a42-38715538589a" />
+
+<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/f1ee58bf-7ecd-42ae-91e8-203f5342ebc9" />
+
+<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/6314f12a-a56c-4e6b-b2cc-9759def87c2a" />
+
+
+
+
+
