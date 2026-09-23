@@ -117,8 +117,6 @@ screenshots/      Screenshots of the app
 
 <img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/5aa0a044-4a2e-41ed-9a42-38715538589a" />
 
-<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/f1ee58bf-7ecd-42ae-91e8-203f5342ebc9" />
-
 <img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/6314f12a-a56c-4e6b-b2cc-9759def87c2a" />
 
 
