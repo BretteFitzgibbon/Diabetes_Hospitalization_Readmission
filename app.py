@@ -34,6 +34,8 @@ MIN_GROUP_SIZE = 30  # hide bars based on fewer patients than this
 def get_data():
     raw = load_data()
     return clean_data(raw)
+    raw = load_data()
+    return clean_data(raw)
 
 
 df_all = get_data()

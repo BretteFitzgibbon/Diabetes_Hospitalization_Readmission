@@ -23,7 +23,7 @@ import pandas as pd
 # Build the path from this file's folder so the app finds the data no matter
 # which folder it is started from (Streamlit Cloud starts from the repo root).
 APP_FOLDER = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(APP_FOLDER, "data", "diabetic_data.csv")
+DATA_PATH = os.path.join(APP_FOLDER, "diabetic_data_corrected.csv")
 
 # Columns our team decided to use (see README "Variables")
 COLUMNS = [
@@ -82,7 +82,7 @@ def check_missing_values(df):
 
 def diagnosis_group(code):
     """Turn an ICD-9 code like '428' or '250.83' into a readable group."""
-    if pd.isna(code):
+    if pd.isna(code) or code == "Missing":
         return "Other"
     code = str(code).strip()
     # V and E codes are supplementary codes, not a disease group
