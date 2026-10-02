@@ -83,6 +83,20 @@ you can download.
   For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
 - The HbA1C test is a modest but real indicator of reduced readmission risk for diabetic patients (correlation not causation).
 - Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a patient population.
+  #### HbA1c Testing and 30-Day Readmission Analysis
+> **Important note:** These results are based on the cleaned dataset of 68,071 patient encounters and do not apply the first-stay-per-patient filter.
+> 
+- The cleaned dataset contained 68,071 patient encounters. HbA1c testing was recorded for 12,465 patients (18.31%), while 55,606 patients (81.69%) did not have a recorded HbA1c test.
+- The 30-day readmission rate was 8.49% among tested patients and 9.15% among patients who were not tested. This represents a difference of 0.66 percentage points.
+- By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, and 8.34% for `>8`. The not-tested group had the highest readmission rate at 9.15%.
+- A chi-square test produced a p-value of 0.0213. Since this is less than 0.05, HbA1c testing status was statistically associated with 30-day readmission.
+- This result shows an association, not causation. The analysis does not prove that HbA1c testing directly reduces readmission.
+
+#### Business Recommendation
+
+- The hospital should strengthen HbA1c testing and documentation for eligible patients, particularly those without a recent HbA1c result.
+- HbA1c testing status may be used as one indicator for identifying patients who could benefit from diabetes education, medication review, and post-discharge follow-up.
+- Because the observed difference was relatively small and this was an observational analysis, HbA1c testing should be combined with other factors, such as age, prior hospital visits, diagnoses, and medication history, when planning interventions.
 
   
 ## How to run
