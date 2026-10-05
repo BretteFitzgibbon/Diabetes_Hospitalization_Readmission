@@ -25,17 +25,17 @@ primary care physician, or endocrinologist.
 4. For which primary diagnoses is testing linked to the biggest drop in readmissions?
 5. What are common medication changes that can increase the risk of readmission?
 6. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
-7. For a chosen group of patients, does the readmission rate justify the cost of the test?
+7. For a chosen group of s, does the readmission rate justify the cost of the test?
 
 ## Dataset
 
 **Diabetes 130-US Hospitals for Years 1999-2008**, UCI Machine Learning Repository
 (CC BY 4.0): https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008
 
-- Initial data: 101,766 hospital stays of diabetic patients, 50 columns
-- Cleaned data: 68,071 hospital stays of diabetic patients, 50 columns 
+- Initial data: 101,766 hospital stays of diabetic s, 50 columns
+- Cleaned data: 68,071 hospital stays of diabetic s, 50 columns 
 - Numeric: time in hospital, lab procedures, procedures, diagnoses, prior
-  outpatient / emergency / inpatient visits
+  out / emergency / in visits
 - Categorical: race, gender, age group, diagnoses, HbA1c result, insulin,
   medication change, discharge type, readmission
 
@@ -50,17 +50,17 @@ files in the `data/` folder.
   "test not performed", not missing data)
 - Keep only the columns the team selected
 - Remove stays that ended in death or hospice (discharge codes 11, 13, 14,
-  19, 20, 21), since those patients cannot be readmitted
+  19, 20, 21), since those s cannot be readmitted
 - Remove 3 rows with an invalid gender
 - Target: `readmit_30` = 1 if `readmitted` is `<30`, otherwise 0
 - Group `diag_1` ICD-9 codes into Circulatory, Respiratory, Digestive,
   Diabetes, Injury, Musculoskeletal, Genitourinary, and Other
-- Optional (on by default in the app): keep only each patient's first stay so
+- Optional (on by default in the app): keep only each 's first stay so
   frequent visitors are not counted many times
 
 ## The app
 
-**Controls (sidebar):** count each patient once (checkbox), HbA1c result,
+**Controls (sidebar):** count each  once (checkbox), HbA1c result,
 age group, and primary diagnosis (multi-selects), hospital stays in the prior
 year (slider), and medication change (radio buttons). Test and readmission
 costs can be entered for the break-even check.
@@ -74,28 +74,28 @@ costs can be entered for the break-even check.
 Plus key numbers at the top, a break-even check, and a filtered data table
 you can download.
 
-### What we found (first stay per patient, all filters open)
+### What we found (first stay per , all filters open)
 
-- 18.3% of patients had an HbA1c test.
-- Untested patients: 9.1% readmitted within 30 days, vs. 8.5% for the tested groups (p = 0.021). 
+- 18.3% of s had an HbA1c test.
+- Untested s: 9.1% readmitted within 30 days, vs. 8.5% for the tested groups (p = 0.021). 
 - Prior hospital stays are the strongest warning sign: 8.1% readmitted with no prior stays, 35.6% with 5 or more.
 - The testing gap is largest when the main diagnosis is Diabetes (10.2% vs. 7.2%), Injury (11.3% vs. 7.3%), or Respiratory (7.7% vs. 5.6%).
-  For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
-- The HbA1C test is a modest but real indicator of reduced readmission risk for diabetic patients (correlation not causation).
-- Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a patient population.
+  For Circulatory, Genitourinary, and Musculoskeletal stays, tested s were readmitted slightly *more* often.
+- The HbA1C test is a modest but real indicator of reduced readmission risk for diabetic s (correlation not causation).
+- Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a  population.
   #### HbA1c Testing and 30-Day Readmission Analysis
-> **Important note:** These results are based on the cleaned dataset of 68,071 patient encounters and do not apply the first-stay-per-patient filter.
+> **Important note:** These results are based on the cleaned dataset of 68,071  encounters and do not apply the first-stay-per- filter.
 > 
-- The cleaned dataset contained 68,071 patient encounters. HbA1c testing was recorded for 12,465 patients (18.31%), while 55,606 patients (81.69%) did not have a recorded HbA1c test.
-- The 30-day readmission rate was 8.49% among tested patients and 9.15% among patients who were not tested. This represents a difference of 0.66 percentage points.
+- The cleaned dataset contained 68,071  encounters. HbA1c testing was recorded for 12,465 s (18.31%), while 55,606 s (81.69%) did not have a recorded HbA1c test.
+- The 30-day readmission rate was 8.49% among tested s and 9.15% among s who were not tested. This represents a difference of 0.66 percentage points.
 - By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, and 8.34% for `>8`. The not-tested group had the highest readmission rate at 9.15%.
 - A chi-square test produced a p-value of 0.0213. Since this is less than 0.05, HbA1c testing status was statistically associated with 30-day readmission.
 - This result shows an association, not causation. The analysis does not prove that HbA1c testing directly reduces readmission.
 
 #### Business Recommendation
 
-- The hospital should strengthen HbA1c testing and documentation for eligible patients, particularly those without a recent HbA1c result.
-- HbA1c testing status may be used as one indicator for identifying patients who could benefit from diabetes education, medication review, and post-discharge follow-up.
+- The hospital should strengthen HbA1c testing and documentation for eligible s, particularly those without a recent HbA1c result.
+- HbA1c testing status may be used as one indicator for identifying s who could benefit from diabetes education, medication review, and post-discharge follow-up.
 - Because the observed difference was relatively small and this was an observational analysis, HbA1c testing should be combined with other factors, such as age, prior hospital visits, diagnoses, and medication history, when planning interventions.
 
   
@@ -103,7 +103,7 @@ you can download.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/IsaacZalis/Diabetes.git
+git clone https://github.com/BretteFitzgibbon/Diabetes_Hospitalization_Readmission.git
 cd Diabetes
 
 # 2. Install the libraries
