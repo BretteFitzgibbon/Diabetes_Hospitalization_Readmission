@@ -44,19 +44,16 @@ primary care physician, or endocrinologist.
 If they are missing, download the zip from the link above and put both CSV
 files in the `data/` folder.
 
-### Cleaning steps (`data_prep.py`)
+### Cleaning steps (`diabetes_data_cleaning.py`)
 
-- Read `?` as missing, and keep the text `None` in `A1Cresult` (it means
-  "test not performed", not missing data)
-- Keep only the columns the team selected
-- Remove stays that ended in death or hospice (discharge codes 11, 13, 14,
-  19, 20, 21), since those s cannot be readmitted
-- Remove 3 rows with an invalid gender
-- Target: `readmit_30` = 1 if `readmitted` is `<30`, otherwise 0
-- Group `diag_1` ICD-9 codes into Circulatory, Respiratory, Digestive,
-  Diabetes, Injury, Musculoskeletal, Genitourinary, and Other
-- Optional (on by default in the app): keep only each 's first stay so
-  frequent visitors are not counted many times
+- Read `?` as missing and replaced it with a true missing value
+- Dropped `weight` (~97% missing), `medical_specialty` (~49%) and `payer_code` (~40%), which were too sparse to use
+- Removed stays that ended in death or hospice (discharge codes 11, 13, 14, 19, 20, 21), since those patients cannot be readmitted
+- Kept only each patient's first stay (by `encounter_id`), so frequent visitors are not counted many times (71,518 unique patients in the original data)
+- Dropped rows with a missing `race`; filled the few missing `diag_1`, `diag_2` and `diag_3` codes with a "Missing" category so those rows were kept
+- Did not impute `A1Cresult` or `max_glu_serum`. A blank means the test was not performed, so we created flags instead: `a1c_tested` = 1 when the result is `>7`, `>8` or `Norm` (0 if not tested), and `glucose_tested` is coded the same way for `max_glu_serum`
+- Target: `readmitted_30d` = 1 if `readmitted` is `<30`, otherwise 0
+- Result: 68,071 rows (one per patient), 12,465 tested (18.3%), 9.0% readmitted within 30 days
 
 ## The app
 
