@@ -68,9 +68,9 @@ def check_flags(df):
     if not (df["a1c_tested"] == expected_a1c).all():
         raise ValueError("a1c_tested does not match A1Cresult. "
                          "Use the latest diabetic_data_corrected.csv.")
-    if not (df["readmitted_30d"] == expected_30d).all():
-        raise ValueError("readmitted_30d does not match readmitted.")
-
+        if "readmitted_30d" in df.columns:
+            if not df["readmitted_30d"].eq(expected_30d).all():
+                   raise ValueError("readmitted_30d does not match readmitted.")
 
 def diagnosis_group(code):
     """Turn an ICD-9 code like '428' or '250.83' into a readable group."""
@@ -109,8 +109,9 @@ def add_app_columns(df):
     check_flags(df)
     df = df.copy()
 
-    # target: readmitted within 30 days (1) vs. not (0), from Shivani's file
-    df["readmit_30"] = df["readmitted_30d"]
+   # Canonical app target:
+   # 1 = readmitted within 30 days, 0 = otherwise
+df["readmit_30"] = (df["readmitted"] == "<30").astype(int)
 
     # HbA1c testing and result
     df["testing_status"] = "Not tested"
