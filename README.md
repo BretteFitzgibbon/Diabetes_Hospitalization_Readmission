@@ -146,7 +146,7 @@ Patients whose medication had been changed were slightly more likely to be readm
 ## How to run
 
 ```bash
-# 1. Clone the repo
+# 1. Clone the repository into the terminal or your IDE of choice. We particularly recommend VS Code. 
 git clone https://github.com/BretteFitzgibbon/Diabetes_Hospitalization_Readmission.git
 cd Diabetes_Hospitalization_Readmission
 
