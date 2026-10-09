@@ -37,11 +37,6 @@ primary care physician, or endocrinologist.
 - Categorical: race, gender, age group, diagnoses, HbA1c result, insulin,
   medication change, discharge type, readmission
 
-
-diabetic_data_corrected.csv and IDS_mapping.csv are included in the repository root.
-If they are missing, download the zip from the link above and put both CSV
-files in the `data/` folder.
-
 ### Cleaning steps (`diabetes_data_cleaning.py`)
 
 - Read `?` as missing and replaced it with a true missing value
