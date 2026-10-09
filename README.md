@@ -74,6 +74,7 @@ year (slider), and medication change (radio buttons). Test and readmission costs
 * Prior hospital use by age group and readmission
 
 * HbA1c testing rate by:
+  
   -- Age group
   
   -- Primary diagnosis
