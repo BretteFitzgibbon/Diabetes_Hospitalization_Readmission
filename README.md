@@ -63,10 +63,13 @@ year (slider), and medication change (radio buttons). Test and readmission costs
   * Age group
   * Medication change
   * Primary diagnosis
+    
 -- Prior hospital use by age group and readmission
+
 -- HbA1c testing rate by:
   * Age group
   * Primary diagnosis
+    
 -- The largest tested vs. untested difference by primary diagnosis
 
 Plus key numbers at the top, a break-even check, and a filtered data table
