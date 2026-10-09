@@ -88,28 +88,33 @@ you can download.
 
 1. Are patients who get an HbA1c test readmitted less often than those who don't?
 
-<img width="720" height="405" alt="Slide1" src="https://github.com/user-attachments/assets/21623a87-3f19-448e-a678-0f1d7d04478e" />
+<img width="2560" height="1440" alt="Slide1" src="https://github.com/user-attachments/assets/da72c3b8-1f1e-458e-b283-3c6045da43fd" />
+
 
 The 30-day readmission rate was 8.49% among tested patients and 9.15% among s who were not tested. This represents a difference of 0.66 percentage points.
 
 2. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
 
-   <img width="720" height="405" alt="Slide2" src="https://github.com/user-attachments/assets/750afcba-e55f-4756-a6dd-a74b23aa63cb" />
+   <img width="2560" height="1440" alt="Slide2" src="https://github.com/user-attachments/assets/624eba16-dfce-4f08-b56f-858c8acc158e" />
+
 
 By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, and 8.34% for `>8`. The not-tested group had the highest readmission rate at 9.15%.
 
 3. Is the HbA1c test influenced by age?
 
-   <img width="720" height="405" alt="Slide3" src="https://github.com/user-attachments/assets/24c06537-aace-46a6-bcda-80c4685f7324" />
+<img width="2560" height="1440" alt="Slide3" src="https://github.com/user-attachments/assets/8116fbc7-fb3f-4238-96fc-a78d48d8a95c" />
+
 
 4. How is prior emergency visit history associated with 30-day readmission?
 
-<img width="720" height="405" alt="Slide4" src="https://github.com/user-attachments/assets/329cc08b-0227-43ee-b6a3-98d27f10c8be" />
+<img width="2560" height="1440" alt="Slide4" src="https://github.com/user-attachments/assets/0c171b1d-362a-4e06-aca2-2c4bcf02fcd6" />
+
 
    
 5. For which primary diagnoses is testing linked to the biggest drop in readmissions?
 
-<img width="720" height="405" alt="Slide5" src="https://github.com/user-attachments/assets/bb4b3260-c7a3-4be2-a728-3beccade0563" />
+<img width="2560" height="1440" alt="Slide5" src="https://github.com/user-attachments/assets/36ca59ef-92ce-45d2-b1f4-89b449264504" />
+
 
 The testing gap is largest when the main diagnosis is Diabetes (10.1% vs. 7.2%), Injury (11.3% vs. 7.0%), or Respiratory (7.7% vs. 5.6%).
 For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
@@ -117,14 +122,17 @@ For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were 
 
 6. Do medication changes increase the risk of readmission?
 
-<img width="720" height="405" alt="Slide6" src="https://github.com/user-attachments/assets/b2559480-f2c7-4dcf-8bb2-cbd8151f529c" />
+<img width="2560" height="1440" alt="Slide6" src="https://github.com/user-attachments/assets/15f64cb3-7b7c-403c-931b-54bfd857fab2" />
+
 
   
 7. For a selected group, does the readmission rate justify the cost of the test?
 
-   <img width="720" height="405" alt="Slide7" src="https://github.com/user-attachments/assets/8b482285-1152-4525-b9b4-d08615d5f53b" />
+ <img width="2560" height="1440" alt="Slide7" src="https://github.com/user-attachments/assets/37f4284a-e76e-4f76-836a-c9874ad83c15" />
 
-   <img width="720" height="405" alt="Slide8" src="https://github.com/user-attachments/assets/36ce0713-6175-4f8b-b6fa-00eaf6e93ee0" />
+ <img width="2560" height="1440" alt="Slide8" src="https://github.com/user-attachments/assets/a489828c-ccb3-4bc8-8917-0a52035c8173" />
+
+
 
 - Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a population.
   
