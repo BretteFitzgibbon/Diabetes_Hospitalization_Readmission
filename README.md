@@ -89,9 +89,11 @@ you can download.
 The 30-day readmission rate was 8.49% among tested patients and 9.15% among s who were not tested. This represents a difference of 0.66 percentage points.
 
 
+
 2. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
 <img width="2560" height="1440" alt="Slide2" src="https://github.com/user-attachments/assets/624eba16-dfce-4f08-b56f-858c8acc158e" />
 By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, and 8.34% for `>8`. The not-tested group had the highest readmission rate at 9.15%.
+
 
 
 3. Is the HbA1c test influenced by age?
@@ -99,9 +101,11 @@ By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, an
 There was a steady decline in HbA1c test administration based on the age of the patient. Children and adolescfents were by far the most likely to receive a test. 
 
 
+
 4. How is prior emergency visit history associated with 30-day readmission?
 <img width="2560" height="1440" alt="Slide9" src="https://github.com/user-attachments/assets/ac34627f-7dc8-4451-9d6b-859c91a60362" />
 There was a clear association between emergency visits in the prior year and 30-day readmission, with those who had had three or more emergency visits twice as liekly to be readmitted than those who had had no emergency visits.
+
 
    
 5. For which primary diagnoses is testing linked to the biggest drop in readmissions?
@@ -110,9 +114,11 @@ The testing gap is largest when the main diagnosis is Diabetes (10.1% vs. 7.2%),
 For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
 
 
+
 6. Do medication changes increase the risk of readmission?
 <img width="2560" height="1440" alt="Slide6" src="https://github.com/user-attachments/assets/15f64cb3-7b7c-403c-931b-54bfd857fab2" />
 Patients whose medication had been changed were slightly more likely to be readmitted. 
+
 
   
 7. For a selected group, does the readmission rate justify the cost of the test?
