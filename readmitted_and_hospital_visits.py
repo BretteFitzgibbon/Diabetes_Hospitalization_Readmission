@@ -7,7 +7,9 @@ import os
 
 import pandas as pd
 
-df = pd.read_csv("diabetic_data_corrected.csv")
+DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         "diabetic_data_corrected.csv")
+df = pd.read_csv(DATA_PATH)
 
 
 def analyze_readmission_vs_hospital_visits(dataframe):

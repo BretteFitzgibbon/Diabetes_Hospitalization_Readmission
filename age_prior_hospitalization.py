@@ -15,7 +15,7 @@ APP_FOLDER = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(APP_FOLDER, "diabetic_data_corrected.csv")
 
 
-df = pd.read_csv("diabetic_data_corrected.csv")
+df = pd.read_csv(DATA_PATH)
 # print(df)
 
 # print(df.shape)

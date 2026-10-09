@@ -8,13 +8,15 @@ Structured to match the Week 6 Lab notebook sections:
 5. Validate
 """
 
+import os
+
 import pandas as pd
 import numpy as np
 
 # =====================================================================
 # 1. Load the Data
 # =====================================================================
-DATA_DIR = ''  # change if the CSV is in a subfolder
+DATA_DIR = os.path.dirname(os.path.abspath(__file__)) + os.sep
 diabetic_data = pd.read_csv(f'{DATA_DIR}diabetic_data_corrected.csv')
 
 print('diabetic_data', diabetic_data.shape)
