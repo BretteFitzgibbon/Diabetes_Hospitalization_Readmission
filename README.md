@@ -21,7 +21,7 @@ primary care physician, or endocrinologist.
 2. How is prior emergency-visit history associated with 30-day readmission?
 3. Is the HbA1c test influenced by age?
 4. For which primary diagnoses is testing linked to the biggest drop in readmissions?
-5. What are common medication changes that can increase the risk of readmission?
+5. Do medication changes increase the risk of readmission?
 6. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
 7. For a selected group, does the readmission rate justify the cost of the test?
 
