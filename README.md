@@ -109,7 +109,7 @@ There was a steady decline in HbA1c test administration based on the age of the 
 
 4. How is prior emergency visit history associated with 30-day readmission?
 
-<img width="2560" height="1440" alt="Slide5" src="https://github.com/user-attachments/assets/36ca59ef-92ce-45d2-b1f4-89b449264504" />
+<img width="2560" height="1440" alt="Slide9" src="https://github.com/user-attachments/assets/ac34627f-7dc8-4451-9d6b-859c91a60362" />
 
 There was a clear association between emergency visits in the prior year and 30-day readmission, with those who had had three or more emergency visits twice as liekly to be readmitted than those who had had no emergency visits.
 
