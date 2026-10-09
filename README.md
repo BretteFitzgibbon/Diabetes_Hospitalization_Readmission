@@ -98,7 +98,7 @@ By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, an
 
 3. Is the HbA1c test influenced by age?
 <img width="2560" height="1440" alt="Slide3" src="https://github.com/user-attachments/assets/8116fbc7-fb3f-4238-96fc-a78d48d8a95c" />
-There was a steady decline in HbA1c test administration based on the age of the patient. Children and adolescfents were by far the most likely to receive a test. 
+There was a steady decline in HbA1c test administration based on the age of the patient. Children and adolescents were by far the most likely to receive a test. 
 
 
 
