@@ -66,11 +66,11 @@ def check_flags(df):
     expected_a1c = df["A1Cresult"].isin(["Norm", ">7", ">8"]).astype(int)
     expected_30d = (df["readmitted"] == "<30").astype(int)
     if not (df["a1c_tested"] == expected_a1c).all():
-        raise ValueError("a1c_tested does not match A1Cresult. "
+      raise ValueError("a1c_tested does not match A1Cresult. "
                          "Use the latest diabetic_data_corrected.csv.")
-        if "readmitted_30d" in df.columns:
-            if not df["readmitted_30d"].eq(expected_30d).all():
-                   raise ValueError("readmitted_30d does not match readmitted.")
+    if "readmitted_30d" in df.columns:
+         if not df["readmitted_30d"].eq(expected_30d).all():
+             raise ValueError("readmitted_30d does not match readmitted.")
 
 def diagnosis_group(code):
     """Turn an ICD-9 code like '428' or '250.83' into a readable group."""
