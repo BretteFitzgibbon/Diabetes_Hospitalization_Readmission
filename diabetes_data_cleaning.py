@@ -15,7 +15,7 @@ import numpy as np
 # 1. Load the Data
 # =====================================================================
 DATA_DIR = ''  # change if the CSV is in a subfolder
-diabetic_data = pd.read_csv(f'{DATA_DIR}diabetic_data.csv')
+diabetic_data = pd.read_csv(f'{DATA_DIR}diabetic_data_initial.csv')
 
 print('diabetic_data', diabetic_data.shape)
 diabetic_data.head()
