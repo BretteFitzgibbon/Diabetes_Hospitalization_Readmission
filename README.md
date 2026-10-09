@@ -18,11 +18,11 @@ primary care physician, or endocrinologist.
 **Questions the app answers:**
 
 1. Are patients who get an HbA1c test readmitted less often than those who don't?
-2. How is prior emergency-visit history associated with 30-day readmission?
+2. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
 3. Is the HbA1c test influenced by age?
-4. For which primary diagnoses is testing linked to the biggest drop in readmissions?
-5. Do medication changes increase the risk of readmission?
-6. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
+4. How is prior emergency visit history associated with 30-day readmission?
+5. For which primary diagnoses is testing linked to the biggest drop in readmissions?
+6. Do medication changes increase the risk of readmission?
 7. For a selected group, does the readmission rate justify the cost of the test?
 
 ## Dataset
