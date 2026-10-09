@@ -15,7 +15,7 @@ data, tested patients were readmitted somewhat less often (a correlation, not pr
 as an internal medicine doctor, cardiologist, surgeon, general practitioner,
 primary care physician, or endocrinologist.
 
-**Questions the app answers:**
+**Some questions the app answers:**
 
 1. Are patients who get an HbA1c test readmitted less often than those who don't?
 2. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
@@ -84,19 +84,57 @@ year (slider), and medication change (radio buttons). Test and readmission costs
 Plus key numbers at the top, a break-even check, and a filtered data table
 you can download.
 
-### What we found (first stay per patient, all filters open)
+### What we found
 
-- The cleaned dataset contained 68,071  encounters. HbA1c testing was recorded for 12,465 s (18.31%), while 55,606 s (81.69%) did not have a recorded HbA1c test.
-- The 30-day readmission rate was 8.49% among tested patients and 9.15% among s who were not tested. This represents a difference of 0.66 percentage points.
-- By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, and 8.34% for `>8`. The not-tested group had the highest readmission rate at 9.15%.
-- Prior hospital stays are the strongest warning sign: 8.2% readmitted with no prior stays, 35.5% with 5 or more.
-- The testing gap is largest when the main diagnosis is Diabetes (10.1% vs. 7.2%), Injury (11.3% vs. 7.0%), or Respiratory (7.7% vs. 5.6%).
-  For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
-- Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a  population.
+1. Are patients who get an HbA1c test readmitted less often than those who don't?
+
+<img width="720" height="405" alt="Slide1" src="https://github.com/user-attachments/assets/21623a87-3f19-448e-a678-0f1d7d04478e" />
+
+The 30-day readmission rate was 8.49% among tested patients and 9.15% among s who were not tested. This represents a difference of 0.66 percentage points.
+
+2. How do the results of the HbA1c test -- Norm, >7, >8, and None -- influence 30-day readmission rates?
+
+   <img width="720" height="405" alt="Slide2" src="https://github.com/user-attachments/assets/750afcba-e55f-4756-a6dd-a74b23aa63cb" />
+
+By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, and 8.34% for `>8`. The not-tested group had the highest readmission rate at 9.15%.
+
+3. Is the HbA1c test influenced by age?
+
+   <img width="720" height="405" alt="Slide3" src="https://github.com/user-attachments/assets/24c06537-aace-46a6-bcda-80c4685f7324" />
+
+4. How is prior emergency visit history associated with 30-day readmission?
+
+<img width="720" height="405" alt="Slide4" src="https://github.com/user-attachments/assets/329cc08b-0227-43ee-b6a3-98d27f10c8be" />
+
+   
+5. For which primary diagnoses is testing linked to the biggest drop in readmissions?
+
+<img width="720" height="405" alt="Slide5" src="https://github.com/user-attachments/assets/bb4b3260-c7a3-4be2-a728-3beccade0563" />
+
+The testing gap is largest when the main diagnosis is Diabetes (10.1% vs. 7.2%), Injury (11.3% vs. 7.0%), or Respiratory (7.7% vs. 5.6%).
+For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
+
+
+6. Do medication changes increase the risk of readmission?
+
+<img width="720" height="405" alt="Slide6" src="https://github.com/user-attachments/assets/b2559480-f2c7-4dcf-8bb2-cbd8151f529c" />
+
+  
+7. For a selected group, does the readmission rate justify the cost of the test?
+
+   <img width="720" height="405" alt="Slide7" src="https://github.com/user-attachments/assets/8b482285-1152-4525-b9b4-d08615d5f53b" />
+
+   <img width="720" height="405" alt="Slide8" src="https://github.com/user-attachments/assets/36ce0713-6175-4f8b-b6fa-00eaf6e93ee0" />
+
+- Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a population.
+  
 - A chi-square test produced a p-value of 0.0213. Since this is less than 0.05, HbA1c testing status was statistically associated with 30-day readmission.
-- The HbA1C test is a modest but real indicator of reduced readmission risk for diabetic patients (correlation not causation). 
+  
+- The HbA1C test is a modest but real indicator of reduced readmission risk for diabetic patients (correlation not causation).
 
-#### Business Recommendation
+
+
+#### Business recommendation
 
 - The hospital should strengthen HbA1c testing and documentation for eligible s, particularly those without a recent HbA1c result.
 - HbA1c testing status may be used as one indicator for identifying s who could benefit from diabetes education, medication review, and post-discharge follow-up.
