@@ -107,14 +107,15 @@ By HbA1c result, the readmission rates were 8.67% for `Norm`, 8.55% for `>7`, an
 
 4. How is prior emergency visit history associated with 30-day readmission?
 
-<img width="2560" height="1440" alt="Slide4" src="https://github.com/user-attachments/assets/0c171b1d-362a-4e06-aca2-2c4bcf02fcd6" />
+<img width="2560" height="1440" alt="Slide5" src="https://github.com/user-attachments/assets/36ca59ef-92ce-45d2-b1f4-89b449264504" />
 
 
    
 5. For which primary diagnoses is testing linked to the biggest drop in readmissions?
 
-<img width="2560" height="1440" alt="Slide5" src="https://github.com/user-attachments/assets/36ca59ef-92ce-45d2-b1f4-89b449264504" />
 
+
+<img width="2560" height="1440" alt="Slide4" src="https://github.com/user-attachments/assets/0c171b1d-362a-4e06-aca2-2c4bcf02fcd6" />
 
 The testing gap is largest when the main diagnosis is Diabetes (10.1% vs. 7.2%), Injury (11.3% vs. 7.0%), or Respiratory (7.7% vs. 5.6%).
 For Circulatory, Genitourinary, and Musculoskeletal stays, tested patients were readmitted slightly *more* often.
