@@ -6,9 +6,7 @@ BAN 601 - Project 1
 
 ## Business problem
 
-Diabetic patients admitted to the hospital for any reason are often readmitted
-within 30 days, and readmissions are expensive for hospitals. Yet only about
-16.7% of patients in the complete data set, and 18.3% in the cleaned data set, data received an HbA1c test during their stay. In the
+Diabetic patients admitted to the hospital for any reason are often readmitted within 30 days, and readmissions are expensive for hospitals. Yet only about 16.7% of patients in the complete data set, and 18.3% in the cleaned data set, data received an HbA1c test during their stay. In the
 data, tested patients were readmitted somewhat less often (a correlation, not proof that testing causes the difference).
 
 **Who uses the app:** The clinician who first takes the patient's case, such
@@ -137,14 +135,11 @@ Patients whose medication had been changed were slightly more likely to be readm
 
  While our overall consensus is that HbA1c testing should be increased, the economics can vary by age. For example, patients ages 10-19 were readmitted 5.32 percentage points more often if they had not received an HbA1c test, costing hospitals $798 per patient. In contrast, patients ages 90-99 were not readmitted less often, giving no cost case for testing. 
 
-
-
 - Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a population.
   
 - A chi-square test produced a p-value of 0.0213. Since this is less than 0.05, HbA1c testing status was statistically associated with 30-day readmission.
   
 - The HbA1C test is a modest but real indicator of reduced readmission risk for diabetic patients (correlation not causation).
-
 
 
 #### Business recommendation
@@ -170,31 +165,6 @@ streamlit run app.py
 
 The app opens at http://localhost:8501. To check the cleaning step on its own, run `python data_prep.py`.
 
-## Files
-
-```
-app.py            Streamlit app
-diabetes_data_cleaning.py      Loading, cleaning, and new columns
-requirements.txt  Python libraries
-Data:
--- diabetic_data_corrected.csv
--- IDS_mapping.csv
-Screenshots:
--- overview_and_filters.png
--- charts.png
--- break_even_check.png
--- filtered_med_changed.png 
-```
-
-## Screenshots
-
-<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/3211da8c-c4c5-44c8-9920-c1a6961a7f58" />
-
-<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/52ddfe4e-1fa0-4dde-9892-8f659f0e985c" />
-
-<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/5aa0a044-4a2e-41ed-9a42-38715538589a" />
-
-<img width="2160" height="1350" alt="image" src="https://github.com/user-attachments/assets/6314f12a-a56c-4e6b-b2cc-9759def87c2a" />
 
 
 
