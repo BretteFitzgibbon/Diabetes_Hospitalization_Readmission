@@ -50,10 +50,8 @@ primary care physician, or endocrinologist.
 
 ## The app
 
-**Controls (sidebar):** count each  once (checkbox), HbA1c result,
-age group, and primary diagnosis (multi-selects), hospital stays in the prior
-year (slider), and medication change (radio buttons). Test and readmission
-costs can be entered for the break-even check.
+**Controls (sidebar):** HbA1c result, age group, and primary diagnosis (multi-selects), hospital stays in the prior
+year (slider), and medication change (radio buttons). Test and readmission costs can be entered for the break-even check.
 
 **Visualizations:**
 
