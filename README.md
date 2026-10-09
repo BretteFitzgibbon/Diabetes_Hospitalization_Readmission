@@ -4,6 +4,9 @@ An interactive Streamlit app that helps hospital staff explore patient groups an
 
 BAN 601 - Project 1
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diabetesreadmission.streamlit.app)
+
+
 ## Business problem
 
 Diabetic patients admitted to the hospital for any reason are often readmitted within 30 days, and readmissions are expensive for hospitals. Yet only about 16.7% of patients in the complete data set, and 18.3% in the cleaned data set, data received an HbA1c test during their stay. In the
