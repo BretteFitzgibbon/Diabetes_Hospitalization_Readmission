@@ -127,7 +127,7 @@ Patients whose medication had been changed were slightly more likely to be readm
 7. For a selected group, does the readmission rate justify the cost of the test?
 <img width="2560" height="1440" alt="Slide7" src="https://github.com/user-attachments/assets/37f4284a-e76e-4f76-836a-c9874ad83c15" />
 <img width="2560" height="1440" alt="Slide8" src="https://github.com/user-attachments/assets/a489828c-ccb3-4bc8-8917-0a52035c8173" />
-While our overall consensus is that HbA1c testing should be increased, the economics can vary by age. For example, patients ages 10-19 were readmitted 5.32 percentage points more often if they had not received an HbA1c test, costing hospitals $798 per patient. In contrast, patients ages 90-99 were not readmitted less often, giving no cost case for testing. 
+-- While our overall consensus is that HbA1c testing should be increased, the economics can vary by age. For example, patients ages 10-19 were readmitted 5.32 percentage points more often if they had not received an HbA1c test, costing hospitals $798 per patient. In contrast, patients ages 90-99 were not readmitted less often, giving no cost case for testing. 
 
 - Based on the dataset, The HbA1C test on average costs $15–50, while a readmission costs a hospital $10K–15K+ (and triggers CMS penalties). Even this smaller observed reduction in readmission rate would pay for the test many times over across a population.
   
