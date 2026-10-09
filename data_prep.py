@@ -111,7 +111,7 @@ def add_app_columns(df):
 
    # Canonical app target:
    # 1 = readmitted within 30 days, 0 = otherwise
-df["readmit_30"] = (df["readmitted"] == "<30").astype(int)
+    df["readmit_30"] = (df["readmitted"] == "<30").astype(int)
 
     # HbA1c testing and result
     df["testing_status"] = "Not tested"

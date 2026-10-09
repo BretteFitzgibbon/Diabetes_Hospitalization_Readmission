@@ -51,9 +51,7 @@ TESTING_ORDER = ["Tested", "Not tested"]
 @st.cache_data
 def get_data():
     raw = load_data()
-    return clean_data(raw)
-    raw = load_data()
-    return clean_data(raw)
+    return add_app_columns(raw)
 
 
 df_all = get_data()
