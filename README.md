@@ -55,9 +55,19 @@ year (slider), and medication change (radio buttons). Test and readmission costs
 
 **Visualizations:**
 
-1. 30-day readmission rate by HbA1c result
-2. 30-day readmission rate by number of hospital stays in the prior year
-3. Tested vs. untested readmission rate for each primary diagnosis
+-- 30-day readmission rate by: 
+  * Whether an HbA1c test was performed
+  * The result of the HbA1c test
+  * Prior inpatient stays
+  * Prior emergency visits
+  * Age group
+  * Medication change
+  * Primary diagnosis
+-- Prior hospital use by age group and readmission
+-- HbA1c testing rate by:
+  * Age group
+  * Primary diagnosis
+-- The largest tested vs. untested difference by primary diagnosis
 
 Plus key numbers at the top, a break-even check, and a filtered data table
 you can download.
